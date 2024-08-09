@@ -1,11 +1,13 @@
-import { Welcome } from '../components/Welcome/Welcome';
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
+import { Header } from '@/components/body/Header';
+import { Landing } from '@/components/body/Landing';
+import { Info } from '@/components/body/Info';
 
 export function HomePage() {
   return (
     <>
-      <Welcome />
-      <ColorSchemeToggle />
+      <Header />
+      <Landing />
+      <Info />
     </>
   );
 }
