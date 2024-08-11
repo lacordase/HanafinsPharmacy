@@ -2828,6 +2828,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@googlemaps/js-api-loader@npm:^1.13.8":
+  version: 1.16.8
+  resolution: "@googlemaps/js-api-loader@npm:1.16.8"
+  checksum: 10c0/c4159411f784253ef36c8a674756716637fcf50f7bf0600e7a5298c20229f3962f5fb73d8011dc478b60baea369c0d730db6ad13baa4e43cfc5444379a1ee75d
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.11.14":
   version: 0.11.14
   resolution: "@humanwhocodes/config-array@npm:0.11.14"
@@ -2988,6 +2995,13 @@ __metadata:
   peerDependencies:
     react: ^18.2.0
   checksum: 10c0/f6004a2cb78c82d4cce2a576430021cd4caa84709714fa3e4aac35250aa61953ca65de0a72b6489665688a2731b2b052b1fb3dc872d592d7ec84c22d6e1d6fea
+  languageName: node
+  linkType: hard
+
+"@mapbox/point-geometry@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "@mapbox/point-geometry@npm:0.1.0"
+  checksum: 10c0/e4d861908574cb3165f5ad37b000416ebc90a2d6b3e0073191e6b6dc5074a6159d84ac5114d78557399bb429134f0d05bfb529e7902d1cb2b36d722b72ab662c
   languageName: node
   linkType: hard
 
@@ -4501,6 +4515,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tabler/icons@npm:^3.12.0":
+  version: 3.12.0
+  resolution: "@tabler/icons@npm:3.12.0"
+  checksum: 10c0/a143b3bdac2bf3d144c9b8e5fc1cf97d7dc02bfe5045b536b2ba13eaf51fd30a254cc68e078c503c75887ec04dbd92127744c2fb4b67e0b86546b054bf621697
+  languageName: node
+  linkType: hard
+
 "@testing-library/dom@npm:^10.1.0":
   version: 10.1.0
   resolution: "@testing-library/dom@npm:10.1.0"
@@ -4843,6 +4864,15 @@ __metadata:
     "@types/minimatch": "npm:*"
     "@types/node": "npm:*"
   checksum: 10c0/a8eb5d5cb5c48fc58c7ca3ff1e1ddf771ee07ca5043da6e4871e6757b4472e2e73b4cfef2644c38983174a4bc728c73f8da02845c28a1212f98cabd293ecae98
+  languageName: node
+  linkType: hard
+
+"@types/google-map-react@npm:^2":
+  version: 2.1.10
+  resolution: "@types/google-map-react@npm:2.1.10"
+  dependencies:
+    "@types/react": "npm:*"
+  checksum: 10c0/33567981abd8d92412bf1fcc5980b5793550714169d3c95cbaf1b02ce44aea8bd13397103cf72d7d7a56f4df5be0fa810980628a6638c5f34a272132fd5a8683
   languageName: node
   linkType: hard
 
@@ -7866,6 +7896,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eventemitter3@npm:^4.0.4":
+  version: 4.0.7
+  resolution: "eventemitter3@npm:4.0.7"
+  checksum: 10c0/5f6d97cbcbac47be798e6355e3a7639a84ee1f7d9b199a07017f1d2f1e2fe236004d14fa5dfaeba661f94ea57805385e326236a6debbc7145c8877fbc0297c6b
+  languageName: node
+  linkType: hard
+
 "execa@npm:^5.0.0, execa@npm:^5.1.1":
   version: 5.1.1
   resolution: "execa@npm:5.1.1"
@@ -8559,6 +8596,21 @@ __metadata:
   version: 0.1.2
   resolution: "globrex@npm:0.1.2"
   checksum: 10c0/a54c029520cf58bda1d8884f72bd49b4cd74e977883268d931fd83bcbd1a9eb96d57c7dbd4ad80148fb9247467ebfb9b215630b2ed7563b2a8de02e1ff7f89d1
+  languageName: node
+  linkType: hard
+
+"google-map-react@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "google-map-react@npm:2.2.1"
+  dependencies:
+    "@googlemaps/js-api-loader": "npm:^1.13.8"
+    "@mapbox/point-geometry": "npm:^0.1.0"
+    eventemitter3: "npm:^4.0.4"
+    prop-types: "npm:^15.7.2"
+  peerDependencies:
+    react: ^16.0.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: 10c0/4607c40080bde59ffe37547ff1dc2838de28484c7bda0f074ed06bed7c1e1f173fc1003e898be7dd7402016b883e29ba8ef88856d32dc0966898a8da81a6a100
   languageName: node
   linkType: hard
 
@@ -9946,10 +9998,12 @@ __metadata:
     "@storybook/react": "npm:^8.1.10"
     "@storybook/react-vite": "npm:^8.1.10"
     "@storybook/testing-library": "npm:^0.2.2"
+    "@tabler/icons": "npm:^3.12.0"
     "@testing-library/dom": "npm:^10.1.0"
     "@testing-library/jest-dom": "npm:^6.4.6"
     "@testing-library/react": "npm:^16.0.0"
     "@testing-library/user-event": "npm:^14.5.2"
+    "@types/google-map-react": "npm:^2"
     "@types/react": "npm:^18.3.3"
     "@types/react-dom": "npm:^18.3.0"
     "@typescript-eslint/eslint-plugin": "npm:^7.13.1"
@@ -9963,6 +10017,7 @@ __metadata:
     eslint-plugin-jsx-a11y: "npm:^6.9.0"
     eslint-plugin-react: "npm:^7.34.3"
     eslint-plugin-react-hooks: "npm:^4.6.2"
+    google-map-react: "npm:^2.2.1"
     identity-obj-proxy: "npm:^3.0.0"
     jsdom: "npm:^24.1.0"
     postcss: "npm:^8.4.38"
@@ -9977,6 +10032,7 @@ __metadata:
     storybook-dark-mode: "npm:^4.0.2"
     stylelint: "npm:^16.6.1"
     stylelint-config-standard-scss: "npm:^13.1.0"
+    tabler-icons-react: "npm:^1.56.0"
     typescript: "npm:^5.5.2"
     vite: "npm:^5.3.1"
     vite-tsconfig-paths: "npm:^4.3.2"
@@ -12990,6 +13046,15 @@ __metadata:
     string-width: "npm:^4.2.3"
     strip-ansi: "npm:^6.0.1"
   checksum: 10c0/f8b348af38ee34e419d8ce7306ba00671ce6f20e861ccff22555f491ba264e8416086063ce278a8d81abfa8d23b736ec2cca7ac4029b5472f63daa4b4688b803
+  languageName: node
+  linkType: hard
+
+"tabler-icons-react@npm:^1.56.0":
+  version: 1.56.0
+  resolution: "tabler-icons-react@npm:1.56.0"
+  peerDependencies:
+    react: ">= 16.8.0"
+  checksum: 10c0/65706011940ead0c6e39771fddce31aae11966e31a1da5bbddeaaa2b4d00b589fbdb8722bbd90af2a537ea2a69ff78b254c6f59bca04b02dca3deac38e1d2615
   languageName: node
   linkType: hard
 

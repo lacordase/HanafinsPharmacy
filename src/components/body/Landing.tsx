@@ -1,8 +1,11 @@
-import { Box, Flex, Image, Text } from '@mantine/core';
+import { Blockquote, Box, Flex, Group, Image, Text } from '@mantine/core';
 import landingImg from '../images/landing.png';
 import hanafinsWhite from '../images/hanafinsWhite.png';
+import { Quote } from 'tabler-icons-react';
 
 export function Landing() {
+  const icon = <Quote />;
+
   return (
     <Flex
       justify="center"
@@ -18,7 +21,7 @@ export function Landing() {
           left: 0,
           width: '100%',
           height: '100%',
-          backgroundColor: 'rgba(0, 0, 0, 0.3)', // Slightly black overlay
+          backgroundColor: 'rgba(0, 0, 0, 0.45)', // Slightly black overlay
         }}
       />
       <Box
@@ -32,9 +35,15 @@ export function Landing() {
           padding: '0 20px', // Optional padding for readability
         }}
       >
-        <Text size="30pt" fw={500}>
-          Compassionate Community Care Right Around the Corner
-        </Text>
+        <Flex>
+          <Blockquote color="gray" cite="– Craig Mitchell" icon={icon} mt="xl" w="50%">
+            I have found the staff at this pharmacy absolutely brilliant I would recommend this
+            pharmacy to anyone
+          </Blockquote>
+          <Blockquote color="gray" cite="– Alexa Tannert" icon={icon} mt="xl" w="50%">
+            Very friendly staff! They put a lot of effort into finding the right medication.
+          </Blockquote>
+        </Flex>
       </Box>
     </Flex>
   );
