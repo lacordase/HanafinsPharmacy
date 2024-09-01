@@ -2,7 +2,12 @@ import { Center, Flex, Paper, Text, Title } from '@mantine/core';
 import GoogleMapReact from 'google-map-react';
 import React from 'react';
 
-const Marker = ({ lat, lng }) => (
+interface MarkerProps {
+  lat: number;
+  lng: number;
+}
+
+const Marker: React.FC<MarkerProps> = ({ lat, lng }) => (
   <div
     style={{
       width: '20px',
@@ -17,6 +22,7 @@ const Marker = ({ lat, lng }) => (
     H
   </div>
 );
+
 
 export default function Contact() {
   const defaultProps = {
