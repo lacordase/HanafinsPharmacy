@@ -90,9 +90,12 @@ export default function Contact() {
         </Center>
       </Flex>
       <Center mt="xl">
-        <Paper p="md" h="60vh" style={{ maxWidth: '600px' }}>
+        <Paper p="md" h="40vh" style={{ maxWidth: '600px' }}>
           <Text maw="100%" ta="center" size="clamp(14px, 1.5vw, 20px)">
-            For urgent matters outside these hours, please contact: The Urgent Pharmacy <br />
+            <Text component="span" fw={700}>
+              For urgent matters outside these hours, please contact:
+            </Text>
+            <br /> The Urgent Pharmacy <br />
             Corner Bealey Ave and Columbo St <br /> Christchurch <br />
             (03) 366 4439
           </Text>
