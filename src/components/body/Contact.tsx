@@ -23,7 +23,6 @@ const Marker: React.FC<MarkerProps> = ({ lat, lng }) => (
   </div>
 );
 
-
 export default function Contact() {
   const defaultProps = {
     center: {
@@ -59,11 +58,7 @@ export default function Contact() {
             justify="center"
           >
             <Paper p="md" style={{ width: '100%', maxWidth: '600px' }}>
-              <Text
-                size="clamp(16px, 2vw, 24px)"
-                fw={500}
-                mb="md"
-              >
+              <Text size="clamp(16px, 2vw, 24px)" fw={500} mb="md">
                 Open Monday to Friday 8.30am - 5.30pm <br /> Closed Saturday and Sunday
               </Text>
               <Text mb="md" c="dimmed" size="clamp(14px, 1.5vw, 20px)">
@@ -79,7 +74,7 @@ export default function Contact() {
                 <Text component="span" fw={500}>
                   Email:
                 </Text>{' '}
-                pharmacy@hanafinspharmacy.co.nz
+                pharmacy@hanafinspharmacy.nz
               </Text>
             </Paper>
             <div style={{ height: '30vh', width: '100%' }}>
